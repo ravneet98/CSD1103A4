@@ -54,6 +54,10 @@ nav ul li a:hover {
   text-decoration: underline;
   text-decoration: none;
 }
+.dot {
+  font-size: 4rem;
+  color: #212121;
+}
 
 h1,
 h2,
