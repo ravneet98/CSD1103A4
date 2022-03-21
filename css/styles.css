@@ -14,8 +14,8 @@ body {
 }
 section {
   display: block;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin: 5%;
+  border-radius: 10px;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   background-image: linear-gradient(135deg, #f1f7f9 0%, #c3cfe2 100%);
@@ -125,7 +125,6 @@ h6 {
   color: #004f7d;
   text-align: left;
   height: auto;
-
 }
 .contributors h3 {
   font-size: 2em;
@@ -137,75 +136,83 @@ h6 {
   margin-bottom: 0;
 }
 
-.team_member_section{
+.team_member_section {
   padding-bottom: 10px;
 }
-.member_list{
+.member_list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 40px 0;
 }
-article{
+article {
   width: 18%;
   background-color: white;
   margin: 0.55em;
   text-align: center;
-  border-radius: 2%;
+  border-radius: 10px;
   padding: 15px 0;
-  box-shadow: -1px 12px 13px 2px rgb(2 5 3 / 54%);
+  transition: all 0.5s ease;
 }
 
-article:hover{
+article:hover {
   transform: scale(1.03);
-  background: linear-gradient(135deg, #f1f7f9 0%, #c3cfe2 100%);
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-.member_img{
+
+.member_img {
   border-radius: 50%;
-    max-width: 50%;
-    height: auto;
+  max-width: 50%;
+  height: auto;
+  transition: all 0.3s ease;
 }
-.member_name{
+.member_img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.member_name {
   display: inherit;
-    text-decoration: none;
-    color: #000;
-    font-size: 1.1em;
-    line-height: 1.3em;
-    font-weight: bold;
-    margin: 5px 0;
+  text-decoration: none;
+  color: #004f7d;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-weight: bold;
+  margin: 5px 0;
 }
-.member_name:hover{
-  color: #fff;;
+.member_name:hover {
+  color: #212121;
 }
 
-.designation{
+.designation {
   font-size: 20px;
-    line-height: 28px;
-    color: grey;
-    margin-top: 15px;
+  line-height: 28px;
+  color: grey;
+  margin-top: 15px;
 }
 
-.education{
+.education {
   font-size: 14px;
-    line-height: 20px;
-    color: #000;
-    margin: 6px 0;
+  line-height: 20px;
+  color: #000;
+  margin: 6px 0;
 }
-a.member_contact{
+a.member_contact {
   display: inherit;
-    text-decoration: none;
-    background-color: #000;
-    color: #fff;
-    margin: 3% 15%;
-    padding: 8px 0;
+  text-decoration: none;
+  background-color: #004f7d;
+  color: #fff;
+  margin: 3% 15%;
+  padding: 8px 0;
+  border-radius: 5px;
 }
-social a{
+social a {
   text-decoration: none;
 }
-social a.fa{
-  color: black;
+social a.fa {
+  color: #212121;
 }
-social a.fa:hover{
+social a.fa:hover {
   color: #fff;
 }
 #contact_img {
@@ -343,7 +350,7 @@ ol.contributors_list li a:hover {
     height: 60%;
   }
 
-  article{
+  article {
     width: 42%;
   }
 
@@ -403,8 +410,8 @@ ol.contributors_list li a:hover {
     text-decoration: none;
     font-size: medium;
   }
-   
-  article{
+
+  article {
     width: 100%;
   }
 
