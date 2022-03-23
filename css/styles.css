@@ -192,10 +192,11 @@ article:hover {
 }
 
 .education {
-  font-size: 14px;
+  font-size: 0.9rem;
   line-height: 20px;
-  color: #000;
+  color: #00ade5;
   margin: 6px 0;
+  font-weight: bold;
 }
 a.member_contact {
   display: inherit;
@@ -210,22 +211,21 @@ social a {
   text-decoration: none;
 }
 
-
 .fa {
   font-size: xx-small !important;
   padding: 8px;
   font-size: 10px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 0px 0 2px;
-  border-radius: 50%;
+
+  border-radius: 5px;
 }
 
 .fa:hover {
   opacity: 0.7;
 }
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 .fa-instagram {
@@ -239,7 +239,7 @@ social a {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
@@ -304,10 +304,7 @@ footer {
 
   text-align: center;
   padding: 1%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 5px;
   margin: 0.5%;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
